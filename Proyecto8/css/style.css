@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(83, 200, 220);
+}
+
+#cuentaRegresiva {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    color: rgb(255, 68, 0);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.boton-Play{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 68, 0);
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 55vh;
+    left: 40vh;
+    margin: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.boton-Pausa{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 68, 0);
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 55vh;
+    left: 60vh;
+    margin: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.imagen-Papa-Noel > img{
+    position: absolute;
+    top: 12%;
+    left: 45%;
+    height: 75%;
+}
